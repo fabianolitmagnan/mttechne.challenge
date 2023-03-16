@@ -1,18 +1,33 @@
-## ⚙️ mttechne.challenge
-
-Um comerciante precisa controlar o seu fluxo de caixa diário com os lançamentos (débitos e créditos), também precisa de um relatório que disponibilize o saldo diário consolidado.
-
 ## 💻 Sobre a Solução
+
+No desafio criei a conjuntura onde a solução considera uma base relacional legada para exemplificar o uso do controle de versão das alterações e evoluções feitas no Banco de Dados aumentando a confiabilidade das implantações. Além de fornecer um mecanismo base para refatoração em microsserviços. Isto é, não é uma solução em microsserviços, mas uma estrutura alicerce neste sentido.
+
+## ⚙️ Instruções de como subir a aplicação local
+
+- **[1] Ter o MySQL instalado na versão 8.0.32**
+- **[2] Criar username: root com password: root
+- **[3] No MySQL Command Line criar o database com o comando: create database cashflow_api;
+- **[4] No Maven (https://maven.apache.org/download.cgi) execute:
+-           mvn install
+-           mvn spring-boot:run
+-           Ou java -jar target/api.cash-flow-0.0.1-SNAPSHOT.jar na linha de comando
+- **[5] Para verificar se a aplicação está funcionando em qualquer browser acesse: http://localhost:8080/hello
+-          Deve aparecer uma página com o texto: Hello World Spring!
+- **[6] Para incluir um lançamento com o métodp POST http://localhost:8080/allocated, exemplo:
+          {
+	          "account" : 123, 
+	          "amount" : 140.9, 
+	          "typed" : "CREDIT"
+          }
+- **[7] Para consultar o saldo diário consolidado, métodp GET http://localhost:8080/allocated
+
+## 📄 Documentação
+
 O desenho da solução e detalhes sobre a implementação estão documentados em: (mttechne.challenge/docs/)
 
 - **[Mttechne Challenge.pdf] --> Contém o desenho da solução e detalhes.
 - **[Mttechne Challenge.archimate] --> Desenho da solução feito no formato do Archimate (https://www.archimatetool.com/).
 - **[Desenho da Solução - Mttechne Challenge.bmp] --> Imagem do desenho da solução.
-
-No desafio criei a conjuntura onde a solução considera uma base relacional legada para exemplificar o uso do controle de versão das alterações e evoluções feitas no Banco de Dados aumentando a confiabilidade das implantações. Além de fornecer um mecanismo base para refatoração em microsserviços. Isto é, não é uma solução em microsserviços, mas uma estrutura alicerce neste sentido.
-
-## 📄 Documentação
-
 
 ## 🛠 Tecnologias
 
