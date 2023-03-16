@@ -2,10 +2,11 @@
 
 No desafio criei a conjuntura onde a solução considera uma base relacional legada para exemplificar o uso do controle de versão das alterações e evoluções feitas no Banco de Dados aumentando a confiabilidade das implantações. Migrations, ou ferramentas de migrações, para registrar as atualizações no banco de dados. O Flyway, uma dessas ferramentas suportadas pelo Spring Boot. Para cada mudança no banco de dados é criado um arquivo .sql no projeto e, nele, contém o trecho do comando SQL que será executado no banco de dados.
 Além de fornecer um mecanismo base para refatoração em microsserviços. Isto é, não é uma solução em microsserviços, mas uma estrutura alicerce neste sentido.
+Mais detalhes em: docs/Mttechne Challenge.pdf, seção: Considerações e Controle de Versão da Base de Dados
 
 ## ⚙️ Instruções de como subir a aplicação local
 
-- [1] Ter o MySQL instalado na versão 8.0.32
+- [1] Ter o MySQL instalado na versão 8.0.32, ver: Guia de Instalação do MySQL.pdf em /docs
 - [2] Criar username: root com password: root
 - [3] No MySQL Command Line criar o database com o comando: create database cashflow_api;
 - [4] No Maven (https://maven.apache.org/download.cgi) execute:
