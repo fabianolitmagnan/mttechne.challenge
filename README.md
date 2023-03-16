@@ -31,7 +31,7 @@ Mais detalhes em: [mttechne.challenge/docs/Mttechne Challenge.pdf;](https://gith
 
 O desenho da solução e detalhes sobre a implementação estão documentados em: (mttechne.challenge/docs/)
 
-- **[Trello - Mttechne Challenge](https://trello.com/b/hFTIQvJk/mttechne-challenge) --> Quadro para organização das tarefas.
+- **[Trello - Mttechne Challenge](https://trello.com/invite/b/hFTIQvJk/ATTI810cf8f7cd34d0e6b71e6179f60a15aeC658EF53/mttechne-challenge) --> Quadro para organização das tarefas.
 - **[Mttechne Challenge.pdf] --> Contém o desenho da solução e detalhes.
 - **[Mttechne Challenge.archimate] --> Desenho da solução feito no formato do Archimate (https://www.archimatetool.com/).
 - **[Desenho da Solução - Mttechne Challenge.bmp] --> Imagem do desenho da solução.
