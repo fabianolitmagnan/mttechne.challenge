@@ -1,6 +1,7 @@
 ## 💻 Sobre a Solução
 
-No desafio criei a conjuntura onde a solução considera uma base relacional legada para exemplificar o uso do controle de versão das alterações e evoluções feitas no Banco de Dados aumentando a confiabilidade das implantações. Além de fornecer um mecanismo base para refatoração em microsserviços. Isto é, não é uma solução em microsserviços, mas uma estrutura alicerce neste sentido.
+No desafio criei a conjuntura onde a solução considera uma base relacional legada para exemplificar o uso do controle de versão das alterações e evoluções feitas no Banco de Dados aumentando a confiabilidade das implantações. Migrations, ou ferramentas de migrações, para registrar as atualizações no banco de dados. O Flyway, uma dessas ferramentas suportadas pelo Spring Boot. Para cada mudança no banco de dados é criado um arquivo .sql no projeto e, nele, contém o trecho do comando SQL que será executado no banco de dados.
+Além de fornecer um mecanismo base para refatoração em microsserviços. Isto é, não é uma solução em microsserviços, mas uma estrutura alicerce neste sentido.
 
 ## ⚙️ Instruções de como subir a aplicação local
 
