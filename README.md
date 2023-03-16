@@ -5,21 +5,23 @@ Além de fornecer um mecanismo base para refatoração em microsserviços. Isto 
 
 ## ⚙️ Instruções de como subir a aplicação local
 
-- **[1] Ter o MySQL instalado na versão 8.0.32
-- **[2] Criar username: root com password: root
-- **[3] No MySQL Command Line criar o database com o comando: create database cashflow_api;
-- **[4] No Maven (https://maven.apache.org/download.cgi) execute:
+- [1] Ter o MySQL instalado na versão 8.0.32
+- [2] Criar username: root com password: root
+- [3] No MySQL Command Line criar o database com o comando: create database cashflow_api;
+- [4] No Maven (https://maven.apache.org/download.cgi) execute:
 -           mvn install
 -           mvn spring-boot:run
 -           Ou java -jar target/api.cash-flow-0.0.1-SNAPSHOT.jar na linha de comando
-- **[5] Para verificar se a aplicação está funcionando em qualquer browser acesse: http://localhost:8080/hello
+- [5] Para verificar se a aplicação está funcionando em qualquer browser acesse: http://localhost:8080/hello
 -          Deve aparecer uma página com o texto: Hello World Spring!
-- **[6] Para incluir um lançamento com o métodp POST http://localhost:8080/allocated, exemplo:
-          {
-	          "account" : 123, 
-	          "amount" : 140.9, 
-	          "typed" : "CREDIT"
-          }
+- [6] Para incluir um lançamento com o métodp POST http://localhost:8080/allocated, exemplo:
+;;;
+{
+	"account" : 123, 
+	"amount" : 140.9, 
+	"typed" : "CREDIT"
+}
+;;;
 - **[7] Para consultar o saldo diário consolidado, métodp GET http://localhost:8080/allocated
 
 ## 📄 Documentação
