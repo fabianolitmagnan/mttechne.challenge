@@ -15,13 +15,13 @@ Além de fornecer um mecanismo base para refatoração em microsserviços. Isto 
 - [5] Para verificar se a aplicação está funcionando em qualquer browser acesse: http://localhost:8080/hello
 -          Deve aparecer uma página com o texto: Hello World Spring!
 - [6] Para incluir um lançamento com o métodp POST http://localhost:8080/allocated, exemplo:
-;;;
+```JSON
 {
-	"account" : 123, 
-	"amount" : 140.9, 
-	"typed" : "CREDIT"
+ "account" : 123,
+ "amount" : 140.9,
+ "typed" : "CREDIT"
 }
-;;;
+```
 - **[7] Para consultar o saldo diário consolidado, métodp GET http://localhost:8080/allocated
 
 ## 📄 Documentação
