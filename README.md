@@ -32,6 +32,7 @@ Mais detalhes em: [mttechne.challenge/docs/Mttechne Challenge.pdf;](https://gith
 O desenho da solução e detalhes sobre a implementação estão documentados em: (mttechne.challenge/docs/)
 
 - **[Trello - Mttechne Challenge](https://trello.com/invite/b/hFTIQvJk/ATTI810cf8f7cd34d0e6b71e6179f60a15aeC658EF53/mttechne-challenge) --> Quadro para organização das tarefas.
+- **[Swagger UI](http://localhost:8080/swagger-ui/index.html) --> As APIs utilizam Swagger UI para documentação, pode ser acessada no endereço: http://localhost:8080/swagger-ui/index.html
 - **[Mttechne Challenge.pdf](https://github.com/fabianolitmagnan/mttechne.challenge/blob/main/docs/Mttechne%20Challenge.pdf) --> Contém o desenho da solução e detalhes.
 - **[Mttechne Challenge.archimate] --> Desenho da solução feito no [Archimate](https://www.archimatetool.com/).
 - **[Desenho da Solução - Mttechne Challenge.bmp](https://github.com/fabianolitmagnan/mttechne.challenge/blob/main/docs/Desenho%20da%20Solu%C3%A7%C3%A3o%20-%20Mttechne%20Challenge.bmp) --> Imagem do desenho da solução.
@@ -49,3 +50,4 @@ As seguintes tecnologias foram utilizadas no desenvolvimento da solução:
 - [Hibernate](https://hibernate.org)
 - [Flyway](https://flywaydb.org)
 - [Lombok](https://projectlombok.org)
+- [Swagger UI](https://swagger.io/tools/swagger-ui/)
