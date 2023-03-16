@@ -8,5 +8,5 @@ public record ConsolidatedDailyBalance(
         Long account,
         BigDecimal totalAmount,
         Typed typed
-        )
+)
 {}

@@ -11,7 +11,7 @@ public record OperationDetailData(
         BigDecimal amount,
         Typed typed,
         LocalDateTime operationdateOperation
-      )
+)
 {
     public OperationDetailData (Operation operation)
     {

@@ -18,9 +18,9 @@ public class ConsolidatedDailyBalanceRepository
     {
         Query query = entityManager.createNativeQuery(
                 "SELECT op.account as account, SUM(op.amount) as totalAmount, op.typed as typed "+
-                        "FROM operations op "+
-                        "GROUP BY op.account, op.typed, YEAR(op.operationdate), month(op.operationdate), day(op.operationdate) " +
-                        "ORDER BY op.typed asc ");
+                "FROM operations op "+
+                "GROUP BY op.account, op.typed, YEAR(op.operationdate), month(op.operationdate), day(op.operationdate) " +
+                "ORDER BY op.typed asc ");
 
         List<DailyBalanceVo> dailyBalances = query.getResultList();
         return dailyBalances;
