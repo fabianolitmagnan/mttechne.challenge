@@ -5,7 +5,7 @@ Além de fornecer um mecanismo base para refatoração em microsserviços. Isto 
 
 ## ⚙️ Instruções de como subir a aplicação local
 
-- **[1] Ter o MySQL instalado na versão 8.0.32**
+- **[1] Ter o MySQL instalado na versão 8.0.32
 - **[2] Criar username: root com password: root
 - **[3] No MySQL Command Line criar o database com o comando: create database cashflow_api;
 - **[4] No Maven (https://maven.apache.org/download.cgi) execute:
