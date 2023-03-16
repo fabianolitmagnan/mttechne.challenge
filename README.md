@@ -31,14 +31,16 @@ Mais detalhes em: [mttechne.challenge/docs/Mttechne Challenge.pdf;](https://gith
 
 O desenho da solução e detalhes sobre a implementação estão documentados em: (mttechne.challenge/docs/)
 
+- **[Trello - Mttechne Challenge](https://trello.com/b/hFTIQvJk/mttechne-challenge) --> Quadro para organização das tarefas.
 - **[Mttechne Challenge.pdf] --> Contém o desenho da solução e detalhes.
 - **[Mttechne Challenge.archimate] --> Desenho da solução feito no formato do Archimate (https://www.archimatetool.com/).
 - **[Desenho da Solução - Mttechne Challenge.bmp] --> Imagem do desenho da solução.
 
 ## 🛠 Tecnologias
 
-As seguintes tecnologias foram utilizadas no desenvolvimento da API Rest do projeto:
+As seguintes tecnologias foram utilizadas no desenvolvimento da solução:
 
+- [Trello](https://trello.com)
 - [Java 17](https://www.oracle.com/java)
 - [Spring Boot 3](https://spring.io/projects/spring-boot)
 - [Maven](https://maven.apache.org)
