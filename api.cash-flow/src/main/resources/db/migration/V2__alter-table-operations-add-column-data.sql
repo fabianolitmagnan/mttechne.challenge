@@ -1,0 +1,1 @@
+alter table operations add operationdate TIMESTAMP DEFAULT now();
