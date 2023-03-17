@@ -4,7 +4,7 @@ No desafio criei a conjuntura onde a solução considera uma base relacional leg
 Além de fornecer um mecanismo base para refatoração em microsserviços. Isto é, não é uma solução em microsserviços, mas uma estrutura alicerce neste sentido.
 Mais detalhes em: [mttechne.challenge/docs/Mttechne Challenge.pdf;](https://github.com/fabianolitmagnan/mttechne.challenge/blob/main/docs/Mttechne%20Challenge.pdf)
 
-- **seção: Considerações e Controle de Versão da Base de Dados
+- seção: Considerações e Controle de Versão da Base de Dados
 
 ## ⚙️ Instruções de como subir a aplicação local
 
@@ -25,18 +25,18 @@ Mais detalhes em: [mttechne.challenge/docs/Mttechne Challenge.pdf;](https://gith
  "typed" : "CREDIT"
 }
 ```
-- **[7] Para consultar o saldo diário consolidado, método GET http://localhost:8080/allocated
+- [7] Para consultar o saldo diário consolidado, método GET http://localhost:8080/allocated
 
 ## 📄 Documentação
 
 O desenho da solução e detalhes sobre a implementação estão documentados em: (mttechne.challenge/docs/)
 
-- **[Trello - Mttechne Challenge](https://trello.com/invite/b/hFTIQvJk/ATTI810cf8f7cd34d0e6b71e6179f60a15aeC658EF53/mttechne-challenge) --> Quadro para organização das tarefas.
-- **[Swagger UI](http://localhost:8080/swagger-ui/index.html) --> As APIs utilizam Swagger UI para documentação, pode ser acessada no endereço: http://localhost:8080/swagger-ui/index.html
-- **[Mttechne Challenge.pdf](https://github.com/fabianolitmagnan/mttechne.challenge/blob/main/docs/Mttechne%20Challenge.pdf) --> Contém o desenho da solução e detalhes.
-- **[Mttechne Challenge.archimate] --> Desenho da solução feito no [Archimate](https://www.archimatetool.com/).
-- **[Desenho da Solução - Mttechne Challenge.bmp](https://github.com/fabianolitmagnan/mttechne.challenge/blob/main/docs/Desenho%20da%20Solu%C3%A7%C3%A3o%20-%20Mttechne%20Challenge.bmp) --> Imagem do desenho da solução.
-- **[Guia de Instalação do MySQL.pdf](https://github.com/fabianolitmagnan/mttechne.challenge/blob/main/docs/Guia%20de%20Instala%C3%A7%C3%A3o%20do%20MySQL.pdf) --> Guia contendo orientações para a instalação e configuração da base de dados.
+- [Trello - Mttechne Challenge](https://trello.com/invite/b/hFTIQvJk/ATTI810cf8f7cd34d0e6b71e6179f60a15aeC658EF53/mttechne-challenge) --> Quadro para organização das tarefas.
+- [Swagger UI](http://localhost:8080/swagger-ui/index.html) --> As APIs utilizam Swagger UI para documentação, pode ser acessada no endereço: http://localhost:8080/swagger-ui/index.html
+- [Mttechne Challenge.pdf](https://github.com/fabianolitmagnan/mttechne.challenge/blob/main/docs/Mttechne%20Challenge.pdf) --> Contém o desenho da solução e detalhes.
+- [Mttechne Challenge.archimate] --> Desenho da solução feito no [Archimate](https://www.archimatetool.com/).
+- [Desenho da Solução - Mttechne Challenge.bmp](https://github.com/fabianolitmagnan/mttechne.challenge/blob/main/docs/Desenho%20da%20Solu%C3%A7%C3%A3o%20-%20Mttechne%20Challenge.bmp) --> Imagem do desenho da solução.
+- [Guia de Instalação do MySQL.pdf](https://github.com/fabianolitmagnan/mttechne.challenge/blob/main/docs/Guia%20de%20Instala%C3%A7%C3%A3o%20do%20MySQL.pdf) --> Guia contendo orientações para a instalação e configuração da base de dados.
 
 ## 🛠 Tecnologias
 
